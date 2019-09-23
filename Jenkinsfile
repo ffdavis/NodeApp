@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("ferdavis/nodeappOne")
+        app = docker.build("ferdavis/nodeappone")
     }
 
     stage('Test image') {
